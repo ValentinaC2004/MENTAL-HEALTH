@@ -1,0 +1,373 @@
+body{
+    background-color: #ffffff;
+ font-family: sans-serif;
+ margin: 0%;
+
+}
+
+.text_form{
+    color: #4c5968;
+} 
+.loguito{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    height: 80%;
+    background-color: #cfe4ff;
+    border-radius: 4px 4px 4px 4px;
+}
+.text{
+    margin: 2%;
+}
+
+.suelo{
+    display: flex;
+    justify-content: center;
+    background-color: #4c5968;
+    width: 100%;
+    padding: 3%;
+
+}
+.fotter_text{
+    color: #aab4b4;
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    
+}
+
+.login-box{
+    margin: 0;
+    
+    background: #ffffff;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 5%;
+}
+.login-box .avatar{
+   display: flex;
+   justify-content: center;
+   height: 40%;
+    right: 0%;
+    border-radius: 30%;
+    position: absolute;
+    top: -50px;
+    left: calc(50%-50px);
+}
+
+.login-box label{
+    margin: 0%;
+    padding: 0%;
+    font-weight:bolder;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #4c5968;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #4c5968;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: gray;
+    color: #4c5968;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box a{
+    text-decoration: none;
+    color:gray;
+}
+.login-box a:hover{
+    color: #4c5968;
+}
+.cardcolor{
+    background-color: #ffffff;
+    border-radius: 1%;
+    margin-bottom: 10%;
+}
+.info2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 80%;
+    border-radius: 4px 4px 4px 4px;
+    padding: 2%;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info2{
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.espacio{
+    padding: 5%;
+}
+
+
+
+
+.image-grid-cover {
+    width: 100%;
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    border-radius: 4px;
+}
+.image-grid-clickbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(0,0,0,.45);
+}
+.cover-wrapper {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    z-index: 21;
+    position: relative;
+    top: 80px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+    color: #fff;
+    font-size: 500%;
+}
+footer{
+    background-color: black;
+    color: #fff;
+}
+.titulo-mentalHealth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: small;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.img-principal{
+    border-radius: 80px;
+}
+.padre-introduccion{
+   display: flex;
+   justify-content: center;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    color: #fff;
+}
+p{
+ color: dimgray;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: medium;
+}
+button{
+    color: black;
+    font-size: xx-large;
+    background-color: #fff;
+    backface-visibility: hidden;
+    opacity: 50%;
+}
+
+figure{
+	margin: 0;
+}
+.container{
+width: 1000px;
+margin: 0 auto;
+display: inherit;
+justify-content: inherit;
+align-items: inherit;
+height: inherit;
+flex-wrap: inherit;
+}
+.lista-contenido{
+	display: flex;
+	flex-wrap: wrap;
+}
+.contenido{
+	width: 480px;
+	margin: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	flex-shrink: 0;
+	background: #f4f4f4;
+}
+.imagen{
+	width: 480px;
+	height: 200px;
+	overflow: hidden;
+}
+.detalle-contenido{
+	margin: 20px 40px;
+	margin-top: -40px;
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+}
+.contacto{
+	background-color: gray;
+    opacity: 100%;
+	height: 150px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+
+}
+.link-social{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+.link-social.twitter{
+	background-size: 40px 40px;
+	background-image: url("https://img.icons8.com/android/24/000000/twitter.png"); 
+}
+
+.link-social.Facebook{
+	background-size: 40px 40px;
+	background-image: url("https://img.icons8.com/android/24/000000/facebook.png"); 
+}
+
+.link-social.Instagram{
+	background-size: 40px 40px;
+	background-image: url("https://img.icons8.com/android/24/000000/instagram.png"); 
+}
+
+.formulario-Email input{
+	border-color: red;
+	padding: 5px;
+	width: 150px;
+	border-radius: 5px;
+    border-style: solid;
+}
+
+.formulario-Email button{
+	background-color: gray;
+	color: white;
+	border-radius: 5px;
+	width: 100px
+	padding 10px 0;
+	margin-top: 10px;
+}
+button:hover{
+	background-color: gray;
+    opacity: 70%;
+}
+.footer{
+	background-color: #1b2127;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 90%;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.padre-content{
+    background-color: seashell;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    margin: 20%;
+    margin-bottom: 10%;
+}
